@@ -1,0 +1,34 @@
+{
+  "name": "cyread",
+  "version": "1.0.0",
+  "description": "web for reading comics and novels",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bachgpa/cyread.git"
+  },
+  "keywords": [
+    "bachnguyen",
+    "web",
+    "hybrid",
+    "comics",
+    "novels"
+  ],
+  "author": "bachnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bachgpa/cyread/issues"
+  },
+  "homepage": "https://github.com/bachgpa/cyread#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
